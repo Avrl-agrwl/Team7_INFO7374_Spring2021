@@ -31,7 +31,7 @@ def search_product_list(interval_count=1, interval_hours=6):
     -------
     New .xlsx file with previous search history and results from current search
     """
-    prod_tracker = pd.read_csv('C:/Users/yashk/Desktop/ADM/Pycharm/amazon_webscraper-master/trackers/TRACKER_PRODUCTS.csv', sep=';')
+    prod_tracker = pd.read_csv('/amazon_webscraper-master/trackers/TRACKER_PRODUCTS.csv', sep=';')
     prod_tracker_URLS = prod_tracker.url
     tracker_log = pd.DataFrame()
     now = datetime.now().strftime('%Y-%m-%d %Hh%Mm')
@@ -124,13 +124,13 @@ def search_product_list(interval_count=1, interval_hours=6):
         print('end of interval ' + str(interval))
 
     # after the run, checks last search history record, and appends this run results to it, saving a new file
-    last_search = glob('C:/Users/yashk/Desktop/ADM/Pycharm/amazon_webscraper-master/search_history/*.xlsx')[
+    last_search = glob('amazon_webscraper-master/search_history/*.xlsx')[
         -1]  # path to file in the folder
 
     search_hist = pd.read_excel(last_search)
     final_df = search_hist.append(tracker_log, sort=False)
 
-    final_df.to_excel('C:/Users/yashk/Desktop/ADM/Pycharm/amazon_webscraper-master/search_history/SEARCH_HISTORY_{}.xlsx'.format(now), index=False)
+    final_df.to_excel('amazon_webscraper-master/search_history/SEARCH_HISTORY_{}.xlsx'.format(now), index=False)
     print('end of search')
 
 
