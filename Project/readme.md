@@ -13,7 +13,6 @@ The dataset contains 1.5 years of Spain customers behavior data from Santander b
 # Algorithms
 ## User-Personalization recipe
 Predicts items a user will interact with and performs exploration on cold items. Based on Hierarchical Recurrent Neural Networks which model the temporal order of user-item interactions.
-Item-to-item similarities (SIMS)
-
+## Item-to-item similarities (SIMS)
 Computes items similar to a given item based on co-occurrence of items in the user-item interactions dataset. 
 
