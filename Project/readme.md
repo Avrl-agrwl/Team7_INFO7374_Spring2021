@@ -5,10 +5,14 @@ Our goal is to implement a product recommendation system based on user personali
 # Dataset
 For this, we utilized the Santander Product Recommendation dataset which is available on Kaggle. 
 
-
 Link - https://www.kaggle.com/c/santander-product-recommendation/data
 
 The dataset contains 1.5 years of Spain customers behavior data from Santander bank to predict what new products customers will purchase. The data starts at 2015-01-28 and has monthly records of products a customer has, such as "credit card", "savings account", etc. Our goal is to recommend products based on customer interactions. The dataset contains around 200K rows and 49 columns.
+
+# Architecture
+![](architecture.png)
+
+# Visualization
 
 # Algorithms
 ## User-Personalization recipe
@@ -16,7 +20,3 @@ Predicts items a user will interact with and performs exploration on cold items.
 ## Item-to-item similarities (SIMS)
 Computes items similar to a given item based on co-occurrence of items in the user-item interactions dataset.  
 
-Avrl-agrwl/Team7_INFO7374_Spring2021
-![alt text](https://github.com/Avrl-agrwl/Team7_INFO7374_Spring2021/architecture.png?raw=true)
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
-![Alt text](Avrl-agrwl/Team7_INFO7374_Spring2021/architecture.png?raw=true "Title")
