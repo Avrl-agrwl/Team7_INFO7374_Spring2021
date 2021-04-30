@@ -1,3 +1,4 @@
+![](logo.png)
 # Introduction
 # Santander Product Recommendation System
 Our goal is to implement a product recommendation system based on user personalization and item-similarity, to help banks improve customer acquisition and revenue on products by better marketing techniques.
@@ -11,8 +12,9 @@ The dataset contains 1.5 years of Spain customers behavior data from Santander b
 
 # Architecture
 ![](architecture.png)
-
 # Visualization
+![](amazon_Dashboard%20(1).png)
+
 
 # Algorithms
 ## User-Personalization recipe
