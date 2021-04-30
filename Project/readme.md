@@ -30,3 +30,13 @@ Google Docs link - https://docs.google.com/document/d/16-FVvnGGofMyUECas5j-cwEtV
 Codelab link - https://codelabs-preview.appspot.com/?file_id=16-FVvnGGofMyUECas5j-cwEtVn_Xt7cwE4WYhMOK97c#0
 
 Youtube video link - https://www.youtube.com/watch?v=QJtb06cH_Ms
+
+
+# References
+
+https://docs.aws.amazon.com/personalize/latest/dg/native-recipe-sims.html
+
+https://docs.aws.amazon.com/personalize/latest/dg/native-recipe-new-item-USER_PERSONALIZATION.html
+
+https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/2885002711960994/97004730824646/7533496735645217/latest.html
+
