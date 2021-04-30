@@ -19,3 +19,4 @@ Computes items similar to a given item based on co-occurrence of items in the us
 Avrl-agrwl/Team7_INFO7374_Spring2021
 ![alt text](https://github.com/Avrl-agrwl/Team7_INFO7374_Spring2021/architecture.png?raw=true)
 ![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![Alt text](Avrl-agrwl/Team7_INFO7374_Spring2021/architecture.png?raw=true "Title")
