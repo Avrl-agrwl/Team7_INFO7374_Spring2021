@@ -16,3 +16,4 @@ Predicts items a user will interact with and performs exploration on cold items.
 ## Item-to-item similarities (SIMS)
 Computes items similar to a given item based on co-occurrence of items in the user-item interactions dataset.  
 
+![alt text](http://url/to/architecture.png)
