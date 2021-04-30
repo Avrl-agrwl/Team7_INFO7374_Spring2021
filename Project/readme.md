@@ -1,9 +1,11 @@
+Website Link: https://bankrecommendation.herokuapp.com/
 ![](logo.png)
 # Introduction
 # Santander Product Recommendation System
 Our goal is to implement a product recommendation system based on user personalization and item-similarity, to help banks improve customer acquisition and revenue on products by better marketing techniques.
 
-Website Link: https://bankrecommendation.herokuapp.com/
+
+
 # Dataset
 For this, we utilized the Santander Product Recommendation dataset which is available on Kaggle. 
 
@@ -23,3 +25,8 @@ Predicts items a user will interact with and performs exploration on cold items.
 ## Item-to-item similarities (SIMS)
 Computes items similar to a given item based on co-occurrence of items in the user-item interactions dataset.  
 
+Google Docs link - https://docs.google.com/document/d/16-FVvnGGofMyUECas5j-cwEtVn_Xt7cwE4WYhMOK97c/edit#heading=h.k5kw41q84yog
+
+Codelab link - https://codelabs-preview.appspot.com/?file_id=16-FVvnGGofMyUECas5j-cwEtVn_Xt7cwE4WYhMOK97c#0
+
+Youtube video link - https://www.youtube.com/watch?v=QJtb06cH_Ms
